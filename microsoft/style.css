@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:wght@300;400;600;700&display=swap");
+html,
+body {
+  font-family: "Inclusive Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.headermain {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  padding: 5px;
+}
+header {
+  width: 100%;
+}
+.headersub {
+  width: 80%;
+  margin-left: 70px;
+  margin-top: 0px;
+  align-items: center;
+}
+.headersub ul {
+  display: inline-flex;
+  list-style: none;
+}
+.headersub ul li {
+  margin-left: 20px;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.headsub ul li a:hover {
+  text-decoration: underline;
+}
+.headersub2 {
+  width: 20%;
+  margin-right: 80px;
+  align-items: center;
+}
+.headersub2 ul li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+  font-size: 13px;
+}
+.post1 {
+  position: relative;
+}
+.post1text {
+  color: black;
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  margin-top: 110px;
+  margin-left: 70px;
+}
+.post1text h4 {
+  background-color: rgb(255, 196, 0);
+  width: fit-content;
+  padding: 10px;
+  width: 50px;
+  height: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.post1text h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.post1text button {
+  background-color: rgb(29, 110, 216);
+  padding: 10px;
+  font-size: 19px;
+  margin-top: 30px;
+  color: wheat;
+  border-radius: 2px;
+  font-weight: 400px;
+  border-color: rgb(26, 129, 197);
+  border-style: solid;
+  width: 130px;
+}
+.fouricon {
+  display: inline-flex;
+  padding: 29px;
+  margin-top: 80px;
+}
+.fouricon div {
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+.fouricon div a {
+  color: rgb(6, 90, 158);
+}
+.boxof4pic {
+  display: inline-flex;
+  margin-top: 30px;
+}
+.boxof4pic div {
+  padding: 12px;
+  margin-bottom: 30px;
+}
+.boxof4pic div img {
+  margin-bottom: 0px;
+  margin-left: 14px;
+}
+.boxof4pic:hover {
+  cursor: pointer;
+}
+.boxof4pic div h2 {
+  margin-bottom: 20px;
+  text-align: start;
+  margin-left: 14px;
+}
+.boxof4pic div p {
+  margin-left: 14px;
+  margin-bottom: 20px;
+  font-weight: 2px;
+}
+.boxof4pic div a {
+  margin-left: 14px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: rgb(7, 90, 146);
+}
+.wall2 {
+  position: relative;
+  margin: 50px;
+}
+.post2text {
+  position: absolute;
+  top: 170px;
+  left: 150px;
+}
+.post2text h2 {
+  font-weight: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 29px;
+  margin-bottom: 20px;
+}
+.post2text p {
+  margin-bottom: 10px;
+}
+
+.post2text button {
+  background-color: rgb(29, 110, 216);
+  padding: 10px;
+  font-size: 19px;
+  margin-top: 30px;
+  color: wheat;
+  font-size: 18px;
+  border-radius: 2px;
+  font-weight: 400px;
+  border-color: rgb(26, 129, 197);
+  border-style: solid;
+  width: 190px;
+}
+.boxof4pic2 {
+  display: inline-flex;
+  margin-top: 30px;
+}
+.boxof4pic2 div {
+  padding: 12px;
+  margin-bottom: 30px;
+}
+.boxof4pic2 div img {
+  margin-bottom: 0px;
+  margin-left: 14px;
+}
+.boxof4pic2:hover {
+  cursor: pointer;
+}
+.boxof4pic2 div h2 {
+  margin-bottom: 20px;
+  text-align: start;
+  margin-left: 14px;
+}
+.boxof4pic2 div p {
+  margin-left: 14px;
+  margin-bottom: 20px;
+  font-weight: 2px;
+}
+.boxof4pic2 div a {
+  margin-left: 14px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: rgb(7, 90, 146);
+}
+row2 h2 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.wall3 {
+  position: relative;
+  margin: 50px;
+}
+.post3text {
+  position: absolute;
+  top: 170px;
+  left: 150px;
+  background-color: white;
+  padding: 29px;
+}
+.post3text h2 {
+  font-weight: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 29px;
+  margin-bottom: 20px;
+}
+.post3text p {
+  margin-bottom: 10px;
+}
+
+.post3text button {
+  background-color: rgb(29, 110, 216);
+  padding: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 30px;
+  color: wheat;
+  font-size: 17px;
+  border-radius: 2px;
+  font-weight: 400px;
+  border-color: rgb(26, 129, 197);
+  border-style: solid;
+  width: 100%;
+}
+.foot {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 100px;
+}
+.foot img {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+}
+.backtopbtn {
+  width: 150px;
+  height: 42px;
+  border-color: rgb(180, 178, 178);
+  background-color: rgb(180, 178, 178);
+  border-style: solid;
+  margin-right: 50px;
+  font-size: 17px;
+}
+.backtopbtn:hover {
+  cursor: pointer;
+  background-color: white;
+  border-color: white;
+}
+.backtop {
+  text-align: end;
+}
+.end p {
+  font-size: 15px;
+  padding: 10px;
+}
+.end {
+  display: inline-flex;
+  background-color: rgb(231, 238, 241);
+  width: 100%;
+  height: 600px;
+  color: grey;
+  justify-content: center;
+  margin-top: 30px;
+}
+.footer {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 5px;
+}
+.footer div b {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: grey;
+  text-align: center;
+  margin-left: 30px;
+}
+.browser ul {
+  margin-right: 60px;
+  margin-top: 20px;
+  padding: 10px;
+  list-style: none;
+}
+.tvshows ul {
+  margin-right: 80px;
+  margin-top: 20px;
+  list-style: none;
+}
+.max ul {
+  margin-right: 60px;
+  margin-top: 20px;
+  list-style: none;
+}
+.disney ul {
+  margin-right: 70px;
+  margin-top: 20px;
+  list-style: none;
+}
+.help ul {
+  margin-right: 80px;
+  margin-top: 20px;
+  list-style: none;
+}
+.aboutus ul {
+  margin-right: 80px;
+  margin-top: 20px;
+  list-style: none;
+}
